@@ -49,7 +49,8 @@ class LoginForm extends React.Component {
            Something went wrong..
          </Message.Header>
          <p>{errors.global}</p>
-         </Message>}
+         </Message>
+       }
        <Form.Field error={!!errors.email}>
          <label htmlFor="email">Email</label>
          <input 
